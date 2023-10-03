@@ -1,5 +1,5 @@
 import express from 'express'
-import { Achat } from '../../app' // Importez correctement votre modèle Achat
+import { Achat } from '../../app.js' // Importez correctement votre modèle Achat
 
 export const router = express.Router();
 

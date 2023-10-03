@@ -89,9 +89,9 @@ const port = process.env.PORT || 3000; // Port d'écoute, utilisez celui de votr
 app.use(bodyParser.json());
 
 // Routes pour les utilisateurs, achats et livres
-import {router as users} from './src/routes/users' // Importez vos fichiers de routes
-import {router as achats} from './src/routes/achats'
-import {router as livres} from './src/routes/livres'
+import {router as users} from './src/routes/users.js' // Importez vos fichiers de routes
+import {router as achats} from './src/routes/achats.js'
+import {router as livres} from './src/routes/livres.js'
 
 // Utilisez les routes dans votre application
 app.use('/users', users); // Par exemple, les routes pour les utilisateurs commencent par /api/users

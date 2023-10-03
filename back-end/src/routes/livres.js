@@ -1,5 +1,5 @@
 import express from 'express'
-import Livre from '../../app' // Importez correctement votre modèle Livre
+import { Livre } from '../../app.js' // Importez correctement votre modèle Livre
 
 export const router = express.Router();
 

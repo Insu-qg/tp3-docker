@@ -1,5 +1,5 @@
 import express from 'express'
-import { User } from '../../app' // Assurez-vous d'importer correctement le modèle User
+import { User } from '../../app.js' // Assurez-vous d'importer correctement le modèle User
 
 export const router = express.Router();
 
