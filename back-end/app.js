@@ -4,7 +4,7 @@ import { Sequelize, DataTypes } from 'sequelize'
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: 'database.sqlite'
+  storage: 'back-end/database.sqlite'
 });
 
 export const User = sequelize.define('user', {
